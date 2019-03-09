@@ -6,7 +6,7 @@ Uses a VGG-19 network pretrained on ImageNet Dataset. Middle layers activations 
 and style image are utilized to define a composite cost. Then the generated image is run through the network and
 the defined cost is optimized with Adam optimization algorithm with respect to the generated image input. 
 That way the generated image changes from random pixels to a composition of the content and style images.   
- <br><br/>
+
 ### Example generation
 
 <p float="left">
@@ -46,9 +46,6 @@ Based on Exercises and lectures from the Deeplearning.ai specialization.
 ## References
 
 Deeplearning.ai CNN course on Coursera.[[1]](https://www.coursera.org/learn/convolutional-neural-networks)   
-
-Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). A Neural Algorithm of Artistic Style.[[2]](https://arxiv.org/abs/1508.06576)   
-
+Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). A Neural Algorithm of Artistic Style.[[2]](https://arxiv.org/abs/1508.06576) 
 Karen Simonyan and Andrew Zisserman (2015). Very deep convolutional networks for large-scale image recognition.[[3]](https://arxiv.org/pdf/1409.1556.pdf)  
-
 MatConvNet. Pretrained VGG-19 network on imageNet.[[4]](http://www.vlfeat.org/matconvnet/pretrained/)
