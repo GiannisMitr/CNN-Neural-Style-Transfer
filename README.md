@@ -11,9 +11,9 @@ That way the generated image changes from random pixels to a composition of the 
 
 <p float="left">
   <img src="/images/content.jpg" alt="drawing" width="150"/>
-  <b>&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;</b>
+  <b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</b>
   <img src="/images/style.jpg" alt="drawing" width="150"/>
-  <b>&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;</b>
+  <b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</b>
  <img src="/images/generated.png" alt="drawing" width="150"/>
 </p>  
 
