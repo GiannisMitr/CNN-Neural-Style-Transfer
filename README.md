@@ -1,6 +1,6 @@
 # CNN-Neural-Style-Transfer
 
-A convolutional neural network performing style transfer between two images. Imlemented with tensorflow
+A convolutional neural network performing style transfer between two images. Implemented with tensorflow
 
 Uses a VGG-19 network pretrained on ImageNet Dataset. Middle layers activations of content image 
 and style image are utilized to define a composite cost. Then the generated image is run through the network and
