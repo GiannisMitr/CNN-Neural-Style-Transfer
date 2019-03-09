@@ -14,7 +14,7 @@ That way the generated image changes from random pixels to a composition of the 
   <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <img src="/images/style.jpg" alt="drawing" width="150"/>
   <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
- <img src="/images/generated.png" alt="drawing" width="150"/>
+ <img src="/output/generated.png" alt="drawing" width="150"/>
 </p>  
 
 **&nbsp;&nbsp;&nbsp;&nbsp;content image (C) &nbsp;&nbsp;&nbsp;  + &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style image (S) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;=  &nbsp;&nbsp;  &nbsp;generated image (G)** 
