@@ -41,7 +41,7 @@ The code will:
 * Every 100 iterations will store the generated image to the */output* path.
 
 
-Based on code and lectures from the Deeplearning.ai specialization.
+*Based on code and lectures from the Deeplearning.ai specialization.*
  <br><br/>
 ## References
 
