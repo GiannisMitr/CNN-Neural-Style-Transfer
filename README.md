@@ -41,11 +41,11 @@ The code will:
 * Every 100 iterations will store the generated image to the */output* path.
 
 
-Based on Exercises and lectures from the Deeplearning.ai specialization.
+Based on code and lectures from the Deeplearning.ai specialization.
  <br><br/>
 ## References
 
 Deeplearning.ai CNN course on Coursera.[[1]](https://www.coursera.org/learn/convolutional-neural-networks)   
-Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). A Neural Algorithm of Artistic Style.[[2]](https://arxiv.org/abs/1508.06576) 
+Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, (2015). A Neural Algorithm of Artistic Style.[[2]](https://arxiv.org/abs/1508.06576)    
 Karen Simonyan and Andrew Zisserman (2015). Very deep convolutional networks for large-scale image recognition.[[3]](https://arxiv.org/pdf/1409.1556.pdf)  
 MatConvNet. Pretrained VGG-19 network on imageNet.[[4]](http://www.vlfeat.org/matconvnet/pretrained/)
