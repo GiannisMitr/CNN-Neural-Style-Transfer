@@ -1,6 +1,5 @@
 # A Convolutional Neural Network performing style transfer between two images.
 # Uses a VGG-19 network with pretrained weights on ImageNet.
-# Accepts as input the Image to be generated (random pixels), uses the network levels to extract information
 # Implemented with TensorFlow. 
 import os
 import sys
@@ -76,11 +75,11 @@ def compute_layer_style_cost(a_S, a_G):
 
 
 STYLE_LAYERS = [
-    ('conv1_1', 0.3),
-    ('conv2_1', 0.2),
+    ('conv1_1', 0.1),
+    ('conv2_1', 0.15),
     ('conv3_1', 0.3),
-    ('conv4_1', 0.1),
-    ('conv5_1', 0.1)]
+    ('conv4_1', 0.15),
+    ('conv5_1', 0.3)]
 
 
 
@@ -163,7 +162,7 @@ content_image = reshape_and_normalize_image(content_image)
 
 
 # Load, reshape, and normalize "style" image:
-style_image = scipy.misc.imread("images/abstract.jpg")
+style_image = scipy.misc.imread("images/picasso.jpg")
 style_image = reshape_and_normalize_image(style_image)
 
 
@@ -207,7 +206,7 @@ optimizer = tf.train.AdamOptimizer(4.0)
 # define train_step
 train_step = optimizer.minimize(J)
 
-def model_train(sess, input_image, num_iterations = 5000):
+def model_train(sess, input_image, num_iterations = 10000):
     
     # Initialize global variables
     sess.run(tf.global_variables_initializer())
